@@ -1,0 +1,67 @@
+grp.sty:
+M2022 | FRIS LARD LARC WILK GEVI STAN ABBO PINE TWAI CRDO GETZ NICK SLUZ ROSS MOSC TOTT SHAC WEST AMER HARA BAUD LAZA NIVL FIMB RIIS
+
+run.sty
+ runid   |     name       |   line |  color     |
+ eORCA025.L121-OPM026     | REF    | -          | cornflowerblue   |
+ eORCA025.L121-OPM031     | PERT   | -          | sienna           |
+
+Isf_name.sty:
+AMER  Amery
+PUBL  Publications
+WEST  West
+SHAC  Shackelton
+CONG  Conger_Clenzer
+VINC  Vincennes
+TOTT  Totten
+MOSC  Moscow Uni.
+HOLM  Holmes
+DIBB  Dibble
+MERT  Mertz
+NINN  Ninnis
+COOK  Cook
+RENN  Rennick
+MARI  Mariner
+DRYG  Drygalski
+NANS  Nansen
+ROSS  Ross
+WITH  Withrow
+SWIN  Swinburne
+SLUZ  Sulzberger
+NICK  Nickerson
+LAND  Land
+GETZ  Getz
+CRDO  Crosson/Dotson
+DOTS  Dotson
+CROS  Crosson
+TWAI  Twaites
+PINE  Pine_Island
+COSG  Cosgrove
+ABBO  Abbot
+VENA  Venable
+FERR  Ferrigno
+STAN  Stange
+GEVI  George_VI
+BACH  Bach
+WILK  Wilkins
+WORD  Wordie
+LARB  LarsenB
+LARC  LarsenC
+LARD  LarsenD
+LARE  LarsenE
+LARF  LarsenF
+LARG  LarsenG
+FRIS  FRIS
+RIIS  Riiser-L./Brunt/Stan.
+QUAR  Quar
+FIMB  Fimbul/Jel./Atka/Ekst.
+VIGR  Vigrid
+NIVL  Nivl
+LAZA  Lazarev/Borch.
+BAUD  Baudoin
+HARA  Pr._Harald/Shirase
+RAYN  Rayner
+EDWA  Edward_VIII/Wilma/Robert/Downer
+
+command:
+python SCRIPTS/plot_mlt_per_isf.py -runid eORCA025.L121-OPM026 eORCA025.L121-OPM031 -dir $CCCWORKDIR/VALSO/ -f ISF_ALL_eORCA025.L121-OPM026_10y_y2009_flxT.nc.PIGandTwaites.CRDO ISF_ALL_eORCA025.L121-OPM031_10y_y2089_flxT.nc.PIGandTwaites.CRDO -g M2022 -t 'e)'
