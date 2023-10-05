@@ -1,0 +1,2 @@
+command:
+python plot_fig05ad.py -ftem eORCA025.L121-OPM026_y2009.10y_gridT.nc -vtem sosbt -fisf eORCA025.L121-OPM026_y2009.10y_flxT.nc -visf sowflisf_cav -dir DATA/OPM026/ -o fig05ad.png -t 'Ice shelf melt rate (REF 2009-2018)'

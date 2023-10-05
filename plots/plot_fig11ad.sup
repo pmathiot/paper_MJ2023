@@ -1,0 +1,2 @@
+command:
+python plot_fig11ad.py -ftem eORCA025.L121-OPM031_y2089.10y_gridT.nc -vtem sosbt -fisf eORCA025.L121-OPM031_y2089.10y_flxT.nc -visf sowflisf_cav -dir DATA/OPM031/ -o fig11ad.png -t 'PERT ice shelf melt rate (y90-100)'
